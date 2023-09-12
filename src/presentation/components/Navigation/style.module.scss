@@ -1,0 +1,16 @@
+@import '../../../styles/variables.scss';
+
+.nav_style {
+  height: 9vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+  max-width: 850px;
+  margin: auto;
+
+  svg {
+    font-size: $size-lg;
+    color: $secondary;
+  }
+}

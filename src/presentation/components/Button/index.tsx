@@ -1,5 +1,5 @@
 import { ReactNode } from "react"
-import { buttonStyle } from "./style.css"
+import classes from './style.module.scss'
 
 interface ButtonProps {
   children: ReactNode
@@ -7,7 +7,7 @@ interface ButtonProps {
 
 export function Button({ children }: ButtonProps) {
   return (
-    <button className={buttonStyle}>
+    <button className={classes.btn_style}>
       {children}
     </button>
   )

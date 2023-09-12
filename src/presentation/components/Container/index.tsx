@@ -1,5 +1,5 @@
 import { ReactNode } from "react"
-import { divStyle } from "./style.css"
+import classes from './style.module.scss'
 
 interface ContainerProps {
   children: ReactNode
@@ -7,7 +7,7 @@ interface ContainerProps {
 
 export function Container({ children }: ContainerProps) {
   return (
-    <div className={divStyle}>
+    <div className={classes.div_style}>
       {children}
     </div>
   )

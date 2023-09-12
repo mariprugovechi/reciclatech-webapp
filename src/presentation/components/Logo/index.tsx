@@ -1,9 +1,9 @@
 import Image from "next/image";
-import { divStyle } from "./style.css";
+import classes from './style.module.scss'
 
 export function Logo() {
   return (
-    <div className={divStyle}>
+    <div className={classes.div_style}>
       <Image
         alt='Reciclatech'
         src='/logo.png'

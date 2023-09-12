@@ -1,15 +1,16 @@
 import { Button } from "@/presentation/components/Button"
 import { Container } from "@/presentation/components/Container"
 import { Logo } from "@/presentation/components/Logo"
-import { divStyle, sectionStyle } from "./style.css"
 import { Title } from "@/presentation/components/Title"
+import classes from './style.module.scss'
+
 
 export function HowToPage() {
   return (
-    <section className={sectionStyle}>
+    <section className={classes.section_style}>
       <Logo />
       <Container>
-        <div className={divStyle}>
+        <div className={classes.div_style}>
           <Title style="second">
             Como separar o lixo
           </Title>

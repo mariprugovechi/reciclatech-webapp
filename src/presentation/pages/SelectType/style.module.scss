@@ -1,0 +1,17 @@
+@import '../../../styles/variables.scss';
+
+.section_style {
+  height: 90vh;
+  padding: 75px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 50px;
+
+  .type_style {
+    img {
+      display: block;
+      margin: 0 auto 15px;
+    }
+  }
+}
