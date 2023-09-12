@@ -23,7 +23,7 @@ export function ElectronicPage() {
           <p><strong>7. Cabos e Fios:</strong> <br /> Fios de energia, cabos de comunicação e cabos de conexão também fazem parte do lixo eletrônico, uma vez que possuem revestimentos e isolantes que podem ser prejudiciais.</p>
         </div>
       </Container>
-      <Button>Próximo</Button>
+      <Button href="/#">Próximo</Button>
     </section>
   )
 }

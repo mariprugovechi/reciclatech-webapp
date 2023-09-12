@@ -28,7 +28,7 @@ export function TypesPage() {
           </Link>
         </div>
       </Container>
-      <Button>Próximo</Button>
+      <Button href="/selecionar-tipo">Próximo</Button>
     </section>
   )
 }

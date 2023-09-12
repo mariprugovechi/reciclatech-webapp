@@ -8,6 +8,7 @@ export function SelectTypePage() {
   return (
     <section className={classes.section_style}>
       <Logo />
+      <h2>Quero descartar</h2>
       <div className={classes.type_style}>
         <Image
           alt=""
@@ -15,7 +16,7 @@ export function SelectTypePage() {
           width={30}
           height={75}
         />
-        <Button>Lixo eletrônico</Button>        
+        <Button href="/#">Lixo eletrônico</Button>        
       </div>
       <div className={classes.type_style}>
       <Image
@@ -24,7 +25,7 @@ export function SelectTypePage() {
         width={84}
         height={75}
       />
-      <Button>Lixo reciclável</Button>
+      <Button href="/#">Lixo reciclável</Button>
       </div>
     </section>
   )

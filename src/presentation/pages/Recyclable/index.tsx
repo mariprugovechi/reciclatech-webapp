@@ -26,7 +26,7 @@ export function RecyclablePage() {
           <p>É importante verificar as diretrizes de reciclagem da sua região, pois a aceitação de certos materiais pode variar. Separar adequadamente esses tipos de lixo ajuda a facilitar o processo de reciclagem e a minimizar o impacto ambiental.</p>
         </div>
       </Container>
-      <Button>Próximo</Button>
+      <Button href="/#">Próximo</Button>
     </section>
   )
 }

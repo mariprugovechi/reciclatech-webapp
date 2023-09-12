@@ -1,7 +1,6 @@
 import { Button } from "@/presentation/components/Button"
 import { Container } from "@/presentation/components/Container"
 import { Logo } from "@/presentation/components/Logo"
-import Link from "next/link"
 import classes from './style.module.scss'
 
 export function HomePage() {
@@ -17,9 +16,7 @@ export function HomePage() {
           <p>Cada ação conta! Juntos, estamos construindo um amanhã mais verde e consciente.</p>
         </div>
       </Container>
-      <Link href="/tipos-lixo">
-        <Button>Começar</Button>
-      </Link>
+      <Button href="/tipos-lixo">Começar</Button>
     </section>
   )
 }

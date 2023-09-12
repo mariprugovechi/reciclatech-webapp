@@ -23,7 +23,7 @@ export function HowToPage() {
           <p><strong>Lixo comum:</strong> Evite colocar dispositivos eletrônicos no lixo comum, pois isso pode resultar na contaminação do meio ambiente devido aos materiais tóxicos e metais presentes.</p>
         </div>
       </Container>
-      <Button>Próximo</Button>
+      <Button href="/#">Próximo</Button>
     </section>
   )
 }
