@@ -1,13 +1,13 @@
 @import '../../../styles/variables.scss';
 
 .nav_style {
-  height: 9vh;
+  padding: 25px 0;
   display: flex;
   justify-content: space-around;
   align-items: center;
   width: 100vw;
   max-width: 850px;
-  margin: auto;
+  margin: 0 auto;
 
   svg {
     font-size: $size-lg;
